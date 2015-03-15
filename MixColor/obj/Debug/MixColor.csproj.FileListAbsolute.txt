@@ -33,3 +33,38 @@ c:\users\adrián\documents\visual studio 2013\Projects\MixColor\MixColor\obj\Deb
 c:\users\adrián\documents\visual studio 2013\Projects\MixColor\MixColor\obj\Debug\ProjectArchitectures.txt
 c:\users\adrián\documents\visual studio 2013\Projects\MixColor\MixColor\obj\Debug\MDILProjectFiles.xml
 c:\users\adrián\documents\visual studio 2013\Projects\MixColor\MixColor\obj\Debug\XapCacheFile.xml
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Assets\ApplicationIcon.png
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\MixColor.dll
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\MixColor.pdb
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\resources.pri
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\AppxManifest.xml
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\MixColor.build.appxrecipe
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\Properties\WMAppManifest.xml
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\AppManifest.xaml
+D:\Semestre IX\AppMoviles\MixColor\MixColor\Bin\Debug\MixColor_Debug_AnyCPU.xap
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\App.g.cs
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MainPage.g.cs
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MixColor.g.resources
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MixColor.Resources.AppResources.resources
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MixColor.csproj.GenerateResource.Cache
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MixColor.dll
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MixColor.pdb
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\priconfig.xml
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\priconfig.xml.intermediate
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\layout.resfiles
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\layout.resfiles.intermediate
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\resources.resfiles
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\resources.resfiles.intermediate
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\pri.resfiles
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\pri.resfiles.intermediate
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\qualifiers.txt
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\qualifiers.txt.intermediate
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\ProjectArchitectures.txt
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\MDILProjectFiles.xml
+D:\Semestre IX\AppMoviles\MixColor\MixColor\obj\Debug\XapCacheFile.xml

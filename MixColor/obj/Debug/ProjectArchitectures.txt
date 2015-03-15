@@ -1,1 +1,1 @@
-c:\users\adrián\documents\visual studio 2013\Projects\MixColor\MixColor\MixColor.csproj;neutral
+D:\Semestre IX\AppMoviles\MixColor\MixColor\MixColor.csproj;neutral
