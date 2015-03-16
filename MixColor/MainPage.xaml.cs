@@ -14,9 +14,9 @@ namespace MixColor
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        public bool auxYellow;
-        public bool auxBlue;
-        public bool auxRed;
+        public bool auxYellow = false;
+        public bool auxBlue = false;
+        public bool auxRed = false;
         public bool? result;
 
         // Constructor
@@ -48,23 +48,64 @@ namespace MixColor
 
         //function that combines colors
         public void changeColorRectangle()
-        {
-            if (auxBlue && auxRed)
+        {            
+            if (auxBlue)
             {
-                RectangleSeveral.Fill = new SolidColorBrush(Colors.Magenta);
+                if (auxBlue)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Blue);
+                }
+                if (auxBlue && auxRed)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Magenta);
+                }
+                if (auxBlue && auxYellow)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Green);
+                }
+                auxYellow = false;
+                auxRed = false;
             }
-            if (auxBlue && auxYellow)
+            if (auxYellow)
             {
-                RectangleSeveral.Fill = new SolidColorBrush(Colors.Green);
-            } 
-            if (auxRed && auxYellow)
+                if (auxYellow)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Yellow);
+                }
+                if (auxRed && auxYellow)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Orange);
+                }
+                if (auxBlue && auxYellow)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Green);
+                }
+                auxRed = false;
+                auxBlue = false;
+
+            }
+            if (auxRed)
             {
-                RectangleSeveral.Fill = new SolidColorBrush(Colors.Orange);
+                if (auxRed)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Red);
+                }           
+                if (auxRed && auxYellow)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Orange);
+                }
+                if (auxRed && auxBlue)
+                {
+                    RectangleSeveral.Fill = new SolidColorBrush(Colors.Magenta);
+                }
+                auxBlue = false;
+                auxYellow = false;
             }
         }
         private void ckbBlue_Checked(object sender, RoutedEventArgs e)
         {
             if ((bool)ckbBlue.IsChecked){
+                RectangleSeveral.Fill = new SolidColorBrush(Colors.Blue);
                 auxBlue = true;
             }
             else{
@@ -75,10 +116,13 @@ namespace MixColor
 
         private void ckbYellow_Checked(object sender, RoutedEventArgs e)
         {
-            if ((bool)ckbYellow.IsChecked){
+            if ((bool)ckbYellow.IsChecked)
+            {
+                RectangleSeveral.Fill = new SolidColorBrush(Colors.Yellow);
                 auxYellow = true;
             }
-            else{
+            else
+            {
                 auxYellow = false;
             }
             changeColorRectangle();
@@ -87,6 +131,7 @@ namespace MixColor
         private void ckbRed_Checked(object sender, RoutedEventArgs e)
         {
             if ((bool)ckbRed.IsChecked){
+                RectangleSeveral.Fill = new SolidColorBrush(Colors.Red);
                 auxRed = true;
             }
             else{
